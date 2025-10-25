@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1048474285975",
+    "project_id": "thoughtsapp-ccdfa",
+    "storage_bucket": "thoughtsapp-ccdfa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048474285975:android:0118b0f0ed230cc439f6d2",
+        "android_client_info": {
+          "package_name": "com.example.thoughts"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8Hwgsgk18bN7lmzX8g15zKJRBxJdD6t4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
