@@ -177,13 +177,33 @@ class _RegisterView extends StatelessWidget {
                                   fontWeight: FontWeight.w300,
                                 ),
                               ),
-                              Text(
-                                'BLE',
-                                style: TextStyle(
-                                  color: AppColors.surface,
-                                  fontSize: values.logoFontSize,
-                                  fontWeight: FontWeight.bold,
-                                ),
+                              // Text(
+                              //   'BLE',
+                              //   style: TextStyle(
+                              //     color: AppColors.surface,
+                              //     fontSize: values.logoFontSize,
+                              //     fontWeight: FontWeight.bold,
+                              //   ),
+                              // ),
+                                       Row(
+                                mainAxisSize: MainAxisSize.min,
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                children: [
+                                  Icon(
+                                    Icons.bluetooth,
+                                    color: AppColors.surface,
+                                    size: values
+                                        .logoFontSize, // keep consistent with text
+                                  ),
+                                  Text(
+                                    'LE',
+                                    style: TextStyle(
+                                      color: AppColors.surface,
+                                      fontSize: values.logoFontSize,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
