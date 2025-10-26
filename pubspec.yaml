@@ -41,6 +41,7 @@ dependencies:
   firebase_core: ^4.2.0
   firebase_auth: ^6.1.1
   provider: ^6.1.5+1
+  flutter_launcher_icons: ^0.14.4
 
 
 dev_dependencies:
@@ -53,6 +54,22 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/images/app_icon.png
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: assets/images/app_icon.png
+  remove_alpha_ios: true
+  min_sdk_android: 21
+  web:
+    generate: true
+  macos:
+    generate: true
+  windows:
+    generate: true
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -69,6 +86,7 @@ flutter:
   assets:
     - assets/images/WhatsApp Image 2025-10-23 at 11.30.51 PM.jpeg
     - assets/images/dashboard_signal.jpeg
+    - assets/images/app_icon.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

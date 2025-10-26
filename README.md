@@ -1,15 +1,15 @@
 # Flutter Firebase Authentication and Navigation App
 
-A mobile application built with Flutter and Firebase Authentication, featuring user registration, login, password reset, and a responsive home screen with a bottom navigation bar. The app provides a seamless user experience with error handling, real-time feedback via SnackBars, and a responsive design for mobile, tablet, and desktop devices.
+A mobile application built with Flutter and Firebase Authentication, following the **MVVM (Model-View-ViewModel)** architecture with **BLoC** for state management. The app enables user registration, login, password reset, and navigation to a responsive home screen with a bottom navigation bar. It provides real-time feedback via SnackBars (e.g., "Sending password reset email..." on Forgot Password) and a seamless user experience across mobile, tablet, and desktop devices.
 
 ## Features
 - **User Authentication**: Register, log in, and reset passwords using Firebase Authentication.
 - **Password Reset Feedback**: Immediate "Sending password reset email..." SnackBar when clicking "Forgot Password?".
-- **Responsive UI**: Adapts to different screen sizes (mobile <600px, tablet <1200px, desktop ≥1200px).
+- **Responsive UI**: Adapts to mobile (<600px), tablet (<1200px), and desktop (≥1200px) screen sizes.
 - **Navigation**: Home screen with a bottom navigation bar for tabbed navigation (e.g., Home, Profile, Settings).
 - **Logout Functionality**: Log out from any screen and return to the login screen.
 - **Error Handling**: User-friendly SnackBars for validation errors and Firebase authentication issues.
-- **State Management**: Uses Provider for state management (optionally BLoC).
+- **Architecture**: Implements MVVM with BLoC for robust state management.
 
 ## Project Setup
 ### Prerequisites
@@ -23,5 +23,5 @@ A mobile application built with Flutter and Firebase Authentication, featuring u
 ### Installation
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/kevin-Jobi/Thoughts
+   git clone https://github.com/<your-username>/flutter-firebase-auth-app.git
    cd flutter-firebase-auth-app
